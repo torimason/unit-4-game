@@ -1,0 +1,179 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    color: #efe2d9;
+}
+
+#header {
+    background-color: red;
+    height: 150px;
+}
+
+#header-text{
+    text-align: center;
+    padding: 45px;
+    font-size:84px;
+}
+
+#game{
+
+    background-color: #7778e4;
+    width:980px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+#instructions{
+    padding-bottom: 20px;
+    padding-top: 15px;
+    height:200px;
+}
+
+#instructions-content{
+    margin-bottom: 0px;
+    text-align: center;
+    height:150px;
+    
+
+}
+#instructions-header{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 16px;
+}
+#instructions-text{
+    font-size: 12px;
+    margin: auto;
+}
+
+#numbers-col{
+    height: 400px;
+}
+
+#goal-score{
+    height: 200px;
+
+}
+
+#number-to-match{
+    margin: auto;
+    height:50;
+    width: 205px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+#goal-score-text{
+    width: 200px;
+    height:130px;
+    margin:auto;
+    text-align:center;
+    font-size: 84px;
+}
+
+#player-score{
+    height: 200px;
+}
+
+#player-score-text{
+    margin: auto;
+    height:50;
+    width: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration:underline;
+    font-weight: bold;
+}
+
+#player-score-var{
+    width: 200px;
+    height:130px;
+    margin:auto;
+    text-align:center;
+    font-size: 84px;
+}
+
+#wins-losses-col{
+    height: 400px;
+    text-align:center;
+}
+
+#wins{
+    padding-top:15px;
+    width:90px;
+    height:181px;
+}
+
+#wins-var{
+    padding-top: 30px;
+    font-size: 64px;
+}
+
+#losses{
+    padding-top:25px;
+    width:90px;
+    height:186px;
+}
+
+#losses-var{
+    padding-top: 30px;
+    font-size:64px;
+}
+
+#crystal-col{
+    height: 400px;
+}
+#crystal-one-col{
+    height: 200px;
+}
+
+#crystal-one{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 25px;
+    height: 150px;
+}
+#crystal-two-col{
+    height: 200px;
+}
+
+#crystal-two{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 25px;
+}
+
+#crystal-three-col{
+    height: 200px;
+}
+
+#crystal-three{
+    height: 180px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    margin-top: 15px;
+}
+
+#crystal-four-col{
+    height: 200px;
+}
+
+#crystal-four{
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 25px;
+}
+

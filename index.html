@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  
+        <title>Crystal Collector</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+
+    <body>
+
+        <div class="container" id="game">
+
+                <div class="row" >
+                        <div class="col-md-12" id="header-content">
+                            <h1 id="header-text"><img id="header-pic" src="assets/images/decoration.png"> Crystal Collector <img id="header-pic" src="assets/images/decoration.png"></h1>
+                        </div>
+                    </div>
+            
+            <div class="row">
+                <div class="col-md-12" id="instructions">
+                    <div id="instructions-content">
+                        <h4 id="instructions-header">How to Play!</h4>
+                        <p id="instructions-text"> 
+                            At the start of the game, 
+                            you will be given a random number.
+                                <br> 
+                            By clicking on the four crystals below, you will 
+                            add a specific ammount to your current score.
+                                <br> 
+                            The value of each crystal will be hidden from you,
+                            you must determine the value by 
+                                <br>
+                            clicking on each crystal and seeing what change it 
+                            makes to your score.
+                                <br> 
+                            Each game, the number you are trying to reach will
+                            change, as well as the value of each crystal.
+                                <br> 
+                            GOOD LUCK!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4" id="numbers-col">
+                    <div class="row">
+                        <div class="col-md-12" id="goal-score">
+                            <h4 id="number-to-match">Number to match</h4>
+                            <div id="goal-score-text">000</div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="player-score">
+                            <h4 id="player-score-text">Your Score</h4>
+                            <div id="player-score-var">000</div>
+                        </div>
+                    </div>
+                 </div>
+                <div class="col-md-2" id="wins-losses-col">
+                    <h5 id="wins">Wins<div id="wins-var">00</div></h5>
+    
+                    <h5 id="losses">Losses<div id="losses-var">00</div></h5>
+                </div>
+                <div class="col-md-6" id="crystal-col">
+                    <div class="row">
+                        <div class="col-md-6" id="crystal-one-col">
+                            <img class="img-fluid" id="crystal-one" src="./assets/images/crystal-one.png">
+                        </div>
+                        <div class="col-md-6" id="crystal-two-col">
+                            <img class="img-fluid" id="crystal-two" src="./assets/images/crystal-two.png">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6" id="crystal-three-col">
+                            <img class="img-fluid" id="crystal-three" src="./assets/images/crystal-three.png">
+                        </div>
+                        <div class="col-md-6" id="crystal-four-col">
+                            <img class="img-fluid" id="crystal-four" src="./assets/images/crystal-four.png"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+</html>
